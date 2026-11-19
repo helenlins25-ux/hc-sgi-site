@@ -19,6 +19,7 @@
     <nav id="menu">
       <a href="#sobre">Sobre</a>
       <a href="#modulos">Módulos</a>
+      <a href="#telas">Telas</a>
       <a href="#beneficios">Benefícios</a>
       <a href="#faq">Dúvidas</a>
       <a href="#contato" class="btn btn-accent">Solicitar demonstração</a>
@@ -38,16 +39,17 @@
           <a href="#modulos" class="btn btn-outline">Conhecer os módulos</a>
         </div>
       </div>
-      <div class="mock" aria-hidden="true">
-        <div class="mock-title">Módulo Qualidade</div>
-        <div class="mock-cards">
-          <div><b>0</b><small>Não conformidades abertas</small></div>
-          <div><b>1</b><small>Processos mapeados</small></div>
-          <div><b>2</b><small>Documentos vigentes</small></div>
-          <div><b>0</b><small>Licenças vencidas</small></div>
+      <div class="win hero-win" aria-hidden="true">
+        <div class="win-bar"><i></i><i></i><i></i><span>Treinamentos</span></div>
+        <div class="win-body">
+          <h4>Registro de treinamentos realizados</h4>
+          <div class="scroll"><table class="tbl">
+            <tr><th>Colaborador</th><th>Treinamento</th><th>Validade</th><th>Status</th></tr>
+            <tr><td>Maria Silva</td><td>Informação Documentada</td><td><span class="pill ok">11/11/2027</span></td><td><span class="pill gray">Realizado</span></td></tr>
+            <tr><td>João Pereira</td><td>Auditor Interno</td><td><span class="pill ok">03/05/2027</span></td><td><span class="pill gray">Realizado</span></td></tr>
+            <tr><td>Ana Costa</td><td>Boas Práticas</td><td><span class="pill bad">Reprovado</span></td><td><span class="pill gray">Reprovado</span></td></tr>
+          </table></div>
         </div>
-        <div class="mock-row"><span>Revisão de documento</span><em>em 564 d</em></div>
-        <div class="mock-row"><span>Reciclagem de treinamento</span><em>em 357 d</em></div>
       </div>
     </div>
   </section>
@@ -87,6 +89,72 @@
         <article class="card"><h3>Usuários e acessos</h3><p>Defina quem pode ver e fazer o quê.</p></article>
         <article class="card soon"><span class="badge">em breve</span><h3>Meio Ambiente</h3><p>Gestão ambiental integrada ao sistema.</p></article>
         <article class="card soon"><span class="badge">em breve</span><h3>Segurança (SST)</h3><p>Saúde e segurança do trabalho.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="telas" class="section">
+    <div class="container">
+      <h2 class="center">Conheça o sistema por dentro</h2>
+      <p class="center sub">Exemplos de telas do HC Sistema SGI (dados ilustrativos).</p>
+
+      <div class="shot">
+        <h3>Planejamento estratégico: Análise SWOT</h3>
+        <div class="win"><div class="win-bar"><i></i><i></i><i></i><span>Planejamento estratégico</span></div>
+        <div class="win-body">
+          <div class="note"><b>Modo de planejamento:</b> SWOT. Alinhado à ISO 9001:2015 (cláusulas 4, 5 e 6) e ao SASSMAQ.</div>
+          <h4>Análise SWOT</h4>
+          <div class="row"><span class="btn-sm">+ Novo item SWOT</span><span class="search">Buscar...</span></div>
+          <div class="swot">
+            <div class="s1"><b>Forças</b><ul><li>Equipe qualificada</li><li>Processos documentados</li></ul></div>
+            <div class="s2"><b>Fraquezas</b><ul><li>Controles em planilhas</li></ul></div>
+            <div class="s3"><b>Oportunidades</b><ul><li>Novos clientes certificados</li></ul></div>
+            <div class="s4"><b>Ameaças</b><ul><li>Mudanças regulatórias</li></ul></div>
+          </div>
+        </div></div>
+      </div>
+
+      <div class="shot">
+        <h3>Treinamentos: registro e avaliação de eficácia</h3>
+        <div class="win"><div class="win-bar"><i></i><i></i><i></i><span>Treinamentos</span></div>
+        <div class="win-body">
+          <h4>Registro de treinamentos realizados</h4>
+          <div class="row"><span class="btn-sm">+ Novo registro</span><label class="chk"><input type="checkbox" disabled> Mostrar também planejados e cancelados</label><span class="search">Buscar...</span></div>
+          <div class="scroll"><table class="tbl">
+            <tr><th>Colaborador</th><th>Cargo / função</th><th>Treinamento</th><th>Data</th><th>Validade</th><th>Nota</th><th>Eficácia</th><th>Status</th><th></th></tr>
+            <tr><td>Maria Silva</td><td>Analista de Qualidade</td><td>Informação Documentada</td><td>11/11/2026</td><td><span class="pill ok">11/11/2027</span></td><td>96</td><td>Eficaz</td><td><span class="pill gray">Realizado</span></td><td class="acts"><span class="a g">Avaliar eficácia</span><span class="a gr">Certificado</span><span class="a g">Editar</span><span class="a r">Excluir</span></td></tr>
+            <tr><td>João Pereira</td><td>Supervisor</td><td>Auditor Interno</td><td>03/05/2026</td><td><span class="pill ok">03/05/2027</span></td><td>100</td><td>Eficaz</td><td><span class="pill gray">Realizado</span></td><td class="acts"><span class="a g">Avaliar eficácia</span><span class="a gr">Certificado</span><span class="a g">Editar</span><span class="a r">Excluir</span></td></tr>
+            <tr><td>Ana Costa</td><td>Auxiliar</td><td>Boas Práticas</td><td>20/08/2026</td><td><span class="pill bad">Reprovado</span></td><td>50</td><td>Não eficaz</td><td><span class="pill gray">Reprovado</span></td><td class="acts"><span class="a g">Editar</span><span class="a r">Excluir</span></td></tr>
+          </table></div>
+        </div></div>
+      </div>
+
+      <div class="shot">
+        <h3>Qualificação térmica: normas e dados do relatório</h3>
+        <div class="win"><div class="win-bar"><i></i><i></i><i></i><span>Qualificação térmica</span></div>
+        <div class="win-body">
+          <h4>Nova qualificação térmica</h4>
+          <div class="bar"></div>
+          <div class="norms">
+            <div><input type="checkbox" checked disabled><b>RDC 430/2020</b><span>ANVISA. Boas Práticas de Distribuição, Armazenagem e Transporte de Medicamentos</span></div>
+            <div><input type="checkbox" checked disabled><b>WHO TRS 961</b><span>OMS. Guia de armazenagem e transporte de produtos sensíveis à temperatura</span></div>
+            <div><input type="checkbox" disabled><b>PDA TR 39</b><span>Cadeia de suprimentos de produtos sensíveis à temperatura</span></div>
+            <div><input type="checkbox" checked disabled><b>USP &lt;1079&gt;</b><span>Boas práticas de armazenagem e distribuição, gestão de excursões</span></div>
+            <div><input type="checkbox" disabled><b>Acordo ATP</b><span>Transporte de alimentos perecíveis, classes de equipamentos</span></div>
+            <div><input type="checkbox" checked disabled><b>ISO/IEC 17025</b><span>Laboratórios de calibração, rastreabilidade metrológica</span></div>
+          </div>
+          <div class="bar"></div>
+          <div class="fields">
+            <label>Código do relatório<span class="inp ph">automático se vazio</span></label>
+            <label>Equipamento / veículo<span class="inp"></span></label>
+            <label>Tipo de equipamento<span class="inp"></span></label>
+            <label>Produto transportado<span class="inp">Medicamentos (RDC 430/2020)</span></label>
+            <label>Local / unidade / rota<span class="inp"></span></label>
+            <label>Capacidade / volume<span class="inp"></span></label>
+            <label>Etapa da qualificação<span class="inp">Qualificação de Desempenho</span></label>
+            <label>Data da qualificação<span class="inp">19/11/2026</span></label>
+          </div>
+        </div></div>
       </div>
     </div>
   </section>
