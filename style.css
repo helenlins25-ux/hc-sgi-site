@@ -70,9 +70,23 @@ nav .btn-accent:hover{color:#0b2e1d}
 .card.soon{border-top-color:#b5c2bb;opacity:.85}
 .badge{position:absolute;top:12px;right:12px;background:#e3e9e6;color:var(--muted);font-size:.72rem;padding:2px 10px;border-radius:12px}
 
-.benefit{text-align:center;padding:10px 20px}
-.benefit b{display:inline-block;color:var(--lime);background:var(--green-dark);width:52px;height:52px;line-height:52px;border-radius:50%;margin-bottom:12px}
-.benefit p{color:var(--muted)}
+.benefits{background:linear-gradient(180deg,#fff 0%,var(--bg) 100%)}
+.b-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.benefit{background:#fff;border:1px solid #dfe7e3;border-radius:14px;padding:28px 24px;box-shadow:0 6px 18px rgba(11,90,60,.08);transition:transform .2s,box-shadow .2s;position:relative;overflow:hidden}
+.benefit::before{content:"";position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--green-dark),var(--lime))}
+.benefit:hover{transform:translateY(-5px);box-shadow:0 14px 28px rgba(11,90,60,.16)}
+.b-icon{width:54px;height:54px;border-radius:12px;background:var(--green-dark);color:var(--lime);display:grid;place-items:center;margin-bottom:16px}
+.b-icon svg{width:28px;height:28px}
+.benefit h3{font-size:1.15rem;color:var(--green-dark);margin-bottom:8px}
+.benefit p{color:var(--muted);font-size:.95rem;margin-bottom:12px}
+.benefit ul{list-style:none;border-top:1px solid #e6ece9;padding-top:12px}
+.benefit li{font-size:.9rem;padding:4px 0 4px 24px;position:relative}
+.benefit li::before{content:"✓";position:absolute;left:0;color:var(--lime);font-weight:800}
+.cta-band{margin-top:40px;background:linear-gradient(135deg,var(--green-darker),var(--green));color:#fff;border-radius:14px;padding:28px 32px;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.cta-band h3{font-size:1.3rem;margin-bottom:4px}
+.cta-band p{opacity:.85}
+@media(max-width:900px){.b-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.b-grid{grid-template-columns:1fr}}
 
 details{background:#fff;border-radius:8px;padding:16px 20px;margin-bottom:10px;box-shadow:0 1px 4px rgba(0,0,0,.06)}
 summary{cursor:pointer;font-weight:600;color:var(--green-dark)}
