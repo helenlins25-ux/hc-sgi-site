@@ -1,6 +1,6 @@
 // Número do WhatsApp que receberá os pedidos (somente dígitos, com 55 + DDD).
 // TROQUE pelo seu número real.
-const WHATSAPP = "5500000000000";
+const WHATSAPP = "5547991375459";
 
 document.getElementById("year").textContent = new Date().getFullYear();
 
