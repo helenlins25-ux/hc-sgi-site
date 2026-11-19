@@ -134,5 +134,5 @@ footer a{color:var(--lime);text-decoration:none}
 .inp.ph{color:#9aa7a1}
 .hero-win{box-shadow:0 20px 40px rgba(0,0,0,.35)}
 @media(max-width:820px){.swot{grid-template-columns:1fr}}
-.hero-img{width:100%;height:auto;display:block;border-radius:12px;box-shadow:0 20px 40px rgba(0,0,0,.35);background:#fff}
+.hero-img{width:100%;max-width:440px;height:auto;display:block;margin:0 auto;border-radius:14px;box-shadow:0 20px 40px rgba(0,0,0,.35)}
 .win[hidden]{display:none}
