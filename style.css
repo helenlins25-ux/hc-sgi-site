@@ -150,3 +150,9 @@ footer a{color:var(--lime);text-decoration:none}
 @media(max-width:820px){.swot{grid-template-columns:1fr}}
 .hero-img{width:100%;max-width:300px;height:auto;display:block;margin:0 auto;border-radius:14px;box-shadow:0 20px 40px rgba(0,0,0,.35)}
 .win[hidden]{display:none}
+/* blocos de módulo */
+.module{margin-top:40px}
+.mod-head{display:flex;align-items:center;gap:14px;margin-bottom:16px;padding-bottom:10px;border-bottom:2px solid #dfe7e3}
+.mod-head h3{font-size:1.4rem;color:var(--green-dark);margin:0}
+.mod-tag{font-size:.78rem;font-weight:700;padding:3px 12px;border-radius:14px;background:#e3e9e6;color:var(--muted)}
+.mod-tag.on{background:var(--lime);color:#0b2e1d}
