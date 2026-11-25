@@ -12,7 +12,7 @@ document.getElementById("contactForm").addEventListener("submit", e => {
   e.preventDefault();
   const f = new FormData(e.target);
   const texto =
-    `Olá! Quero uma demonstração do HC Sistema SGI.\n` +
+    `Olá! Quero uma demonstração do HC Sistema de Gestão Integrada.\n` +
     `Nome: ${f.get("nome")}\nEmpresa: ${f.get("empresa")}\nE-mail: ${f.get("email")}\n` +
     `Mensagem: ${f.get("mensagem") || "-"}`;
   window.open(`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(texto)}`, "_blank");
